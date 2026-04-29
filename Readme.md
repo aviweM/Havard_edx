@@ -15,3 +15,7 @@ git push (publish to the server or host which is github)
 - git reset --hard <commit> (revert changes using the last commit)
   git reset --hard origin/master
 - Use branching incase yiu encounter a bug,one branch can be about fixing bug while on the other branch you can add new features for the project. Then merge them once youve fixed the bug
+- git branch command, will tellyou the branch youre working on
+- To switch to a new branch, git checkout -b new_branch_name 
+- git commit -am "Text", if you use thiscommand you do not have to use git add
+-git fork - is when you fork a repo on github, clone it to your computer, make changes, and push your changes or modified changes to your fork(you can optionally submit a pull request to the original repo)
