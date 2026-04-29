@@ -9,3 +9,9 @@ git commit -m "Add line" (git keeps track of inserted and deleted lines)
 git push (publish to the server or host which is github) 
 - To see the web content, type: start hello.html (it will display on a browser)
 - git status (to see the branch you are working on, and the updates)
+- If a collaborator edits files inside of github interface, then you must use git pull, to acccess data from github.
+- To resolve Merge conflicts, compare your edited version and the remote one. Decide which changes you want to keep and commit changes.
+- git log command will actually give you te reference of all your commits including author and when changes were done.
+- git reset --hard <commit> (revert changes using the last commit)
+  git reset --hard origin/master
+- Use branching incase yiu encounter a bug,one branch can be about fixing bug while on the other branch you can add new features for the project. Then merge them once youve fixed the bug
