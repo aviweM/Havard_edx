@@ -19,3 +19,8 @@ git push (publish to the server or host which is github)
 - To switch to a new branch, git checkout -b new_branch_name 
 - git commit -am "Text", if you use thiscommand you do not have to use git add
 -git fork - is when you fork a repo on github, clone it to your computer, make changes, and push your changes or modified changes to your fork(you can optionally submit a pull request to the original repo)
+- GitHub Pages is a feature from GitHub that lets you host a website directly from a Git repository—for free. It is used for personal portfolios.
+You push your HTML/CSS/JS code to a repo
+GitHub turns it into a live website
+You get a public URL like:
+https://your-username.github.io/repo-name
